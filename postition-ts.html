@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .swimming {
+            position: relative;
+        }
+
+        .swimming div {
+            border: 1px dashed crimson;
+            width: 200px;
+        }
+
+        #boy {
+            position: absolute;
+            left: 0px;
+            top: 25px;
+            z-index: 3;
+        }
+
+        #ring {
+            position: fixed;
+            top: 290px;
+            z-index: 2;
+        }
+
+        #water {
+            position: sticky;
+            left: 0px;
+            top: 250px;
+            z-index: 1;
+        }
+
+        .dummy {
+            height: 200px;
+            width: 250px;
+            background-color: palevioletred;
+        }
+
+        .funny {
+            height: 200px;
+            width: 250px;
+            background-color: yellowgreen;
+            border: 2px dashed blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>I am learning position</h1>
+        <h1>I will also learn static, absolute, fixed and stick z-index</h1>
+        <h2>Lets start!!!</h2>
+        <h2>this is a header two</h2>
+    </section>
+    <section class="swimming">
+        <div id="boy"><img src="images/boy.svg" alt=""></div>
+        <div id="ring"><img src="images/ring.svg" alt=""></div>
+        <div id="water"><img src="images/water.svg" alt=""></div>
+        <div class="dummy">
+            <h3>these are dummy text</h3>
+        </div>
+        <div class="dummy">
+            <h3>these are dummy text</h3>
+        </div>
+        <div class="dummy">
+            <h3>these are dummy text</h3>
+        </div>
+        <div class="dummy">
+            <h3>these are dummy text</h3>
+        </div>
+        <div class="dummy">
+            <h3>these are dummy text</h3>
+        </div>
+    </section>
+    <section>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+        <div class="funny"></div>
+    </section>
+
+</body>
+
+</html>
